@@ -1,0 +1,65 @@
+{
+  "0dea0358-a040-4441-b09f-25121e68be73": {
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Office 365 Outlook",
+      "iconUri": "https://connectoricons-prod.azureedge.net/master/1.0.1653.3400/office365/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_office365",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [
+      "Office365Outlook"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "0dea0358-a040-4441-b09f-25121e68be73"
+  },
+  "3d4dde02-1151-4f27-bf75-d5afc374e776": {
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/master/1.0.1653.3400/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://axiatadigitallabssl.sharepoint.com/sites/abc-mentoring-sharepoint": {
+        "dataSources": {
+          "employee-auth": {
+            "tableName": "71fb12a0-de46-491d-a16c-5cea28064a91"
+          },
+          "employeee-table": {
+            "tableName": "71cb55f7-a479-41ba-93e9-3fd3583ff94c"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "employeee-table",
+      "employee-auth"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "3d4dde02-1151-4f27-bf75-d5afc374e776"
+  },
+  "7d54ddb1-219c-4e1c-9a4e-011bf6aeed8e": {
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Office 365 Users",
+      "iconUri": "https://connectoricons-prod.azureedge.net/master/1.0.1653.3400/office365users/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_office365users",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [
+      "Office365Users"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "7d54ddb1-219c-4e1c-9a4e-011bf6aeed8e"
+  }
+}
