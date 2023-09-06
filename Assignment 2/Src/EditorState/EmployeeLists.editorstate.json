@@ -1212,7 +1212,7 @@
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "true",
+          "AutoRuleBindingString": "",
           "InvariantPropertyName": "ExpandMenu",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
@@ -1236,7 +1236,7 @@
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "RGBA(0, 0, 0, 1)",
+          "AutoRuleBindingString": "",
           "InvariantPropertyName": "HamburgerMenuColor",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
@@ -1260,7 +1260,7 @@
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "100",
+          "AutoRuleBindingString": "",
           "InvariantPropertyName": "SetMenuWidth",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
@@ -1292,7 +1292,7 @@
         {
           "Category": "Data",
           "PropertyName": "ExpandMenu",
-          "RuleProviderType": "System"
+          "RuleProviderType": "Unknown"
         },
         {
           "Category": "Data",
@@ -1302,7 +1302,7 @@
         {
           "Category": "Data",
           "PropertyName": "HamburgerMenuColor",
-          "RuleProviderType": "System"
+          "RuleProviderType": "Unknown"
         },
         {
           "Category": "Data",
@@ -1317,7 +1317,7 @@
         {
           "Category": "Data",
           "PropertyName": "SetMenuWidth",
-          "RuleProviderType": "System"
+          "RuleProviderType": "Unknown"
         },
         {
           "Category": "Design",

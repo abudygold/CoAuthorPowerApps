@@ -182,6 +182,7 @@
         ZIndex: =9
 
     MenuLeftNav_1 As MenuLeftNav:
+        HamburgerMenuColor: =RGBA(255, 255, 255, 1)
         Height: =Parent.Height
         MenuItems: |-
             =Table(
@@ -200,6 +201,7 @@
             )
         MenuWidth: =If(showMenu, MenuLeftNav_1.SetMenuWidth, iconHamburger.Width)
         OnReset: =Set(showMenu, MenuLeftNav_1.ExpandMenu)
+        SetMenuWidth: =250
         Width: =MenuLeftNav_1.MenuWidth
         ZIndex: =10
 
