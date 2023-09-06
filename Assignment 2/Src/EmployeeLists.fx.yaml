@@ -98,29 +98,6 @@
             Width: =4
             ZIndex: =6
 
-        NextArrow1_1 As icon.ChevronRight:
-            AccessibleLabel: =Self.Tooltip
-            Color: =RGBA(166, 166, 166, 1)
-            Height: =36
-            Icon: =Icon.Edit
-            OnSelect: |
-                =Set(
-                    editMode,
-                    true
-                );
-                ResetForm(EditForm1);
-                EditForm(EditForm1);
-                Navigate(
-                    EmployeeForm,
-                    ScreenTransition.Fade
-                );
-            PaddingRight: =6
-            Tooltip: ="View item details"
-            Width: =36
-            X: =522
-            Y: =38
-            ZIndex: =7
-
     LblAppName1 As label:
         Height: =88
         Size: =27
