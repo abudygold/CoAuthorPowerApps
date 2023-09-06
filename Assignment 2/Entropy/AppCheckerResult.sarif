@@ -1526,7 +1526,7 @@
                 },
                 "region": {
                   "charLength": 2,
-                  "charOffset": 55,
+                  "charOffset": 54,
                   "snippet": {
                     "text": "in"
                   }
@@ -1566,7 +1566,7 @@
                 },
                 "region": {
                   "charLength": 2,
-                  "charOffset": 64,
+                  "charOffset": 63,
                   "snippet": {
                     "text": "||"
                   }
@@ -1606,7 +1606,7 @@
                 },
                 "region": {
                   "charLength": 2,
-                  "charOffset": 101,
+                  "charOffset": 99,
                   "snippet": {
                     "text": "||"
                   }
@@ -1636,19 +1636,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Login.TextInput1.AccessibleLabel"
+                  "fullyQualifiedName": "Login.lblUsername.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Login.TextInput1.AccessibleLabel",
+                  "fullyQualifiedName": "Login.lblUsername.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Login",
-                "type": "Login.TextInput1"
+                "type": "Login.lblUsername"
               }
             }
           ],
@@ -1666,19 +1666,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Login.TextInput2.AccessibleLabel"
+                  "fullyQualifiedName": "Login.lblPassword.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Login.TextInput2.AccessibleLabel",
+                  "fullyQualifiedName": "Login.lblPassword.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Login",
-                "type": "Login.TextInput2"
+                "type": "Login.lblPassword"
               }
             }
           ],
@@ -2086,19 +2086,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "EmployeeLists.TextSearchBox1.AccessibleLabel"
+                  "fullyQualifiedName": "EmployeeLists.textSearchBox.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "EmployeeLists.TextSearchBox1.AccessibleLabel",
+                  "fullyQualifiedName": "EmployeeLists.textSearchBox.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "EmployeeLists",
-                "type": "EmployeeLists.TextSearchBox1"
+                "type": "EmployeeLists.textSearchBox"
               }
             }
           ],
@@ -2116,19 +2116,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "EmployeeLists.SearchIcon1.AccessibleLabel"
+                  "fullyQualifiedName": "EmployeeLists.searchIcon.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "EmployeeLists.SearchIcon1.AccessibleLabel",
+                  "fullyQualifiedName": "EmployeeLists.searchIcon.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "EmployeeLists",
-                "type": "EmployeeLists.SearchIcon1"
+                "type": "EmployeeLists.searchIcon"
               }
             }
           ],
@@ -2146,19 +2146,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "EmployeeLists.SearchIcon1.TabIndex"
+                  "fullyQualifiedName": "EmployeeLists.searchIcon.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "EmployeeLists.SearchIcon1.TabIndex",
+                  "fullyQualifiedName": "EmployeeLists.searchIcon.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "EmployeeLists",
-                "type": "EmployeeLists.SearchIcon1"
+                "type": "EmployeeLists.searchIcon"
               }
             }
           ],

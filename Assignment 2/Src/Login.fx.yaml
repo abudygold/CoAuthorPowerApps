@@ -1,6 +1,6 @@
 Login As screen:
 
-    bgLogin As label:
+    cardLogin As label:
         Fill: =RGBA(186, 202, 226, 1)
         Height: =1047
         Size: =21
@@ -22,7 +22,7 @@ Login As screen:
         Y: =185
         ZIndex: =2
 
-    TextInput1 As text:
+    lblUsername As text:
         Default: =""
         Height: =70
         HintText: ="Username"
@@ -32,7 +32,7 @@ Login As screen:
         Y: =378
         ZIndex: =3
 
-    TextInput2 As text:
+    lblPassword As text:
         Default: =""
         Height: =70
         HintText: ="Password"
@@ -43,14 +43,14 @@ Login As screen:
         Y: =495
         ZIndex: =4
 
-    Button1 As button:
+    btnLogin As button:
         Height: =72
         OnSelect: |-
             =If(
                 !IsBlank(
                     LookUp(
                         'employee-auth',
-                        username = TextInput1.Text And password = TextInput2.Text
+                        username = lblUsername.Text And password = lblPassword.Text
                     ).username
                 ),
                 Navigate(EmployeeLists),
@@ -58,7 +58,7 @@ Login As screen:
             );
             Set(
                 isHRAdmin,
-                TextInput1.Text = "hr_admin"
+                lblUsername.Text = "hr_admin"
             )
         Size: =24
         Text: ="Login"
@@ -67,7 +67,7 @@ Login As screen:
         Y: =616
         ZIndex: =5
 
-    Label3 As label:
+    lblErrorMsg As label:
         Height: =70
         Size: =21
         Text: ="Forgot password? contact admin"

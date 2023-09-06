@@ -1,6 +1,6 @@
 "EmployeeLists As screen.'phoneLayout_HeaderAndGallery_ver3.0'":
 
-    RectQuickActionBar1 As rectangle:
+    rectQuickActionBar As rectangle:
         Height: =88
         Width: =Parent.Width
         ZIndex: =1
@@ -11,7 +11,7 @@
         Items: |-
             =Filter(
                 'employeee-table',
-                TextSearchBox1.Text in email || TextSearchBox1.Text in first_name || TextSearchBox1.Text in department
+                textSearchBox.Text in email || textSearchBox.Text in first_name || textSearchBox.Text in department
             )
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
@@ -19,7 +19,7 @@
         TemplatePadding: =0
         TemplateSize: =116
         Width: =Parent.Width
-        Y: =TextSearchBox1.Y + TextSearchBox1.Height
+        Y: =textSearchBox.Y + textSearchBox.Height
         ZIndex: =1
 
         Title3 As label:
@@ -98,7 +98,7 @@
             Width: =4
             ZIndex: =6
 
-    LblAppName1 As label:
+    lblAppName As label:
         Height: =88
         PaddingLeft: =30
         Size: =27
@@ -108,7 +108,7 @@
         X: =20
         ZIndex: =2
 
-    IconNewItem1 As icon.Add:
+    logoutIcon As icon.Add:
         AccessibleLabel: =Self.Tooltip
         Height: =88
         Icon: =Icon.Leave
@@ -123,7 +123,7 @@
         X: =Parent.Width - Self.Width
         ZIndex: =5
 
-    TextSearchBox1 As text:
+    textSearchBox As text:
         Default: =""
         Height: =68
         HintText: ="Search items"
@@ -134,10 +134,10 @@
         RadiusTopRight: =7
         Size: =21
         Width: =Parent.Width
-        Y: =RectQuickActionBar1.Height
+        Y: =rectQuickActionBar.Height
         ZIndex: =6
 
-    SearchIcon1 As icon.Search:
+    searchIcon As icon.Search:
         Height: =Self.Width
         Icon: =Icon.Search
         PaddingBottom: =14
@@ -145,18 +145,18 @@
         PaddingRight: =14
         PaddingTop: =14
         Tooltip: ="Search"
-        Width: =TextSearchBox1.Height
-        X: =TextSearchBox1.X
-        Y: =TextSearchBox1.Y
+        Width: =textSearchBox.Height
+        X: =textSearchBox.X
+        Y: =textSearchBox.Y
         ZIndex: =7
 
     Rectangle11 As rectangle:
         Height: =2
         Width: =Parent.Width
-        Y: =TextSearchBox1.Y + TextSearchBox1.Height
+        Y: =textSearchBox.Y + textSearchBox.Height
         ZIndex: =8
 
-    IconNewItem1_1 As icon.Add:
+    addIcon As icon.Add:
         AccessibleLabel: =Self.Tooltip
         Height: =88
         Icon: =Icon.Add
@@ -184,6 +184,7 @@
     MenuLeftNav_1 As MenuLeftNav:
         HamburgerMenuColor: =RGBA(255, 255, 255, 1)
         Height: =Parent.Height
+        MenuColor: =RGBA(56, 96, 178, 1)
         MenuItems: |-
             =Table(
                 {
