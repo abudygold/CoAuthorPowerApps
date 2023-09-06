@@ -1287,7 +1287,7 @@
         {
           "Category": "Data",
           "PropertyName": "MenuItems",
-          "RuleProviderType": "System"
+          "RuleProviderType": "Unknown"
         },
         {
           "Category": "Data",

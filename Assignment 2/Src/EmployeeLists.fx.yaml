@@ -183,6 +183,21 @@
 
     MenuLeftNav_1 As MenuLeftNav:
         Height: =Parent.Height
+        MenuItems: |-
+            =Table(
+                {
+                    MenuLabel: "Employee Registration",
+                    MenuIcon: Icon.DetailList,
+                    MenuScreenNavigation: EmployeeLists,
+                    MenuID: 1
+                },
+                    {
+                    MenuLabel: "Select Mentor",
+                    MenuIcon: Icon.DetailList,
+                    MenuScreenNavigation: EmployeeLists,
+                    MenuID: 2
+                }
+            )
         MenuWidth: =If(showMenu, MenuLeftNav_1.SetMenuWidth, iconHamburger.Width)
         OnReset: =Set(showMenu, MenuLeftNav_1.ExpandMenu)
         Width: =MenuLeftNav_1.MenuWidth

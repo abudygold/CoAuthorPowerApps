@@ -30,7 +30,7 @@ MenuLeftNav As CanvasComponent:
 
     iconHamburger As icon.Hamburger:
         Color: =MenuLeftNav.HamburgerMenuColor
-        Height: =75
+        Height: =88
         Icon: =Icon.Hamburger
         OnSelect: =Set(showMenu, !showMenu)
         PaddingBottom: =5

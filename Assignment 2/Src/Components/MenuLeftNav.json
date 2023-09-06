@@ -218,7 +218,7 @@
           },
           {
             "Category": "Design",
-            "InvariantScript": "75",
+            "InvariantScript": "88",
             "Property": "Height",
             "RuleProviderType": "Unknown"
           },
@@ -1828,7 +1828,7 @@
         "NameMapSourceSchema": "?"
       }
     ],
-    "LastModifiedTimestamp": "638296406632495898",
+    "LastModifiedTimestamp": "638296407084311473",
     "Name": "MenuLeftNav",
     "Rules": [
       {
@@ -2000,7 +2000,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638296406632495898",
+  "LastModifiedTimestamp": "638296407084311473",
   "Name": "f214683b31124b0a93f0eca51c652c0c",
   "OverridableProperties": {},
   "TemplateOriginalName": "1a0fda0f2e744ca7b43a504da55f8af2",
