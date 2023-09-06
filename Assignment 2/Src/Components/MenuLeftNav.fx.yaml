@@ -1,0 +1,97 @@
+MenuLeftNav As CanvasComponent:
+    ExpandMenu: =false
+    Fill: =RGBA(0, 0, 0, 0)
+    HamburgerMenuColor: =Color.Blue
+    Height: =640
+    MenuBkgColor: =RGBA(220, 220, 220, 1)
+    MenuColor: =Color.Purple
+    MenuItems: |-
+        =Table(
+            {
+                MenuLabel: "Home",
+                MenuIcon: Icon.Home,
+                MenuScreenNavigation: App.ActiveScreen,
+                MenuID: 1
+            },
+                {
+                MenuLabel: "Employee List",
+                MenuIcon: Icon.DetailList,
+                MenuScreenNavigation: App.ActiveScreen,
+                MenuID: 2
+            }
+        )
+    MenuWidth: =If(showMenu, MenuLeftNav.SetMenuWidth, iconHamburger.Width)
+    OnReset: =Set(showMenu, MenuLeftNav.ExpandMenu)
+    SetMenuWidth: =200
+    Width: =MenuLeftNav.MenuWidth
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    iconHamburger As icon.Hamburger:
+        Color: =MenuLeftNav.HamburgerMenuColor
+        Height: =75
+        Icon: =Icon.Hamburger
+        OnSelect: =Set(showMenu, !showMenu)
+        PaddingBottom: =5
+        PaddingLeft: =5
+        PaddingRight: =5
+        PaddingTop: =5
+        Width: =36
+        ZIndex: =1
+
+    galMenu As gallery.variableTemplateHeightGallery:
+        DelayItemLoading: =true
+        Fill: =MenuLeftNav.MenuBkgColor
+        Height: =Parent.Height-iconHamburger.Height
+        Items: =MenuLeftNav.MenuItems
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        TemplateSize: =280
+        Visible: =showMenu
+        Width: =Parent.Width
+        Y: =iconHamburger.Height
+        ZIndex: =2
+
+        rectShape As rectangle:
+            Fill: =MenuLeftNav.MenuColor
+            Height: =32
+            OnSelect: =ThisItem.MenuScreenNavigation = App.ActiveScreen
+            Width: =4
+            ZIndex: =1
+
+        iconMenu As icon.Add:
+            Color: =MenuLeftNav.MenuColor
+            Height: =32
+            Icon: =ThisItem.MenuIcon
+            OnSelect: =ThisItem.MenuIcon
+            PaddingBottom: =5
+            PaddingLeft: =5
+            PaddingRight: =5
+            PaddingTop: =5
+            Width: =27
+            X: =8
+            ZIndex: =2
+
+        lblMenu As label:
+            AutoHeight: =true
+            Color: =MenuLeftNav.MenuColor
+            FontWeight: =FontWeight.Lighter
+            Height: =32
+            OnSelect: =Select(Parent)
+            Size: =14
+            Text: =ThisItem.MenuLabel
+            Width: =595
+            X: =35
+            ZIndex: =3
+
+        btnClick As button:
+            Fill: =Color.Transparent
+            Height: =lblMenu.Height+lblMenu.Y
+            HoverFill: =Color.Transparent
+            OnSelect: =Navigate(ThisItem.MenuScreenNavigation, ScreenTransition.Cover)
+            PressedFill: =Color.Transparent
+            Text: =""
+            Width: =Parent.TemplateWidth
+            ZIndex: =4
+

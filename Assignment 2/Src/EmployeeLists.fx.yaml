@@ -100,9 +100,10 @@
 
     LblAppName1 As label:
         Height: =88
+        PaddingLeft: =30
         Size: =27
         Text: ="Employee List"
-        Width: =Parent.Width - Self.X - IconNewItem1.Width
+        Width: =427
         Wrap: =false
         X: =20
         ZIndex: =2
@@ -179,4 +180,11 @@
         Width: =88
         X: =464
         ZIndex: =9
+
+    MenuLeftNav_1 As MenuLeftNav:
+        Height: =Parent.Height
+        MenuWidth: =If(showMenu, MenuLeftNav_1.SetMenuWidth, iconHamburger.Width)
+        OnReset: =Set(showMenu, MenuLeftNav_1.ExpandMenu)
+        Width: =MenuLeftNav_1.MenuWidth
+        ZIndex: =10
 
