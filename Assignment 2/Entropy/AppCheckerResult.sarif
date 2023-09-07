@@ -2266,19 +2266,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "EmployeeDetail.Icon1.AccessibleLabel"
+                  "fullyQualifiedName": "EmployeeDetail.backIcon.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "EmployeeDetail.Icon1.AccessibleLabel",
+                  "fullyQualifiedName": "EmployeeDetail.backIcon.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "EmployeeDetail",
-                "type": "EmployeeDetail.Icon1"
+                "type": "EmployeeDetail.backIcon"
               }
             }
           ],
@@ -2296,19 +2296,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "EmployeeDetail.Icon1.TabIndex"
+                  "fullyQualifiedName": "EmployeeDetail.backIcon.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "EmployeeDetail.Icon1.TabIndex",
+                  "fullyQualifiedName": "EmployeeDetail.backIcon.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "EmployeeDetail",
-                "type": "EmployeeDetail.Icon1"
+                "type": "EmployeeDetail.backIcon"
               }
             }
           ],
@@ -2326,19 +2326,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "EmployeeDetail.Icon1_1.AccessibleLabel"
+                  "fullyQualifiedName": "EmployeeDetail.deleteIcon.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "EmployeeDetail.Icon1_1.AccessibleLabel",
+                  "fullyQualifiedName": "EmployeeDetail.deleteIcon.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "EmployeeDetail",
-                "type": "EmployeeDetail.Icon1_1"
+                "type": "EmployeeDetail.deleteIcon"
               }
             }
           ],
@@ -2356,19 +2356,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "EmployeeDetail.Icon1_1.TabIndex"
+                  "fullyQualifiedName": "EmployeeDetail.deleteIcon.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "EmployeeDetail.Icon1_1.TabIndex",
+                  "fullyQualifiedName": "EmployeeDetail.deleteIcon.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "EmployeeDetail",
-                "type": "EmployeeDetail.Icon1_1"
+                "type": "EmployeeDetail.deleteIcon"
               }
             }
           ],
@@ -2386,19 +2386,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "EmployeeDetail.Icon1_2.AccessibleLabel"
+                  "fullyQualifiedName": "EmployeeDetail.editIcon.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "EmployeeDetail.Icon1_2.AccessibleLabel",
+                  "fullyQualifiedName": "EmployeeDetail.editIcon.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "EmployeeDetail",
-                "type": "EmployeeDetail.Icon1_2"
+                "type": "EmployeeDetail.editIcon"
               }
             }
           ],
@@ -2416,19 +2416,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "EmployeeDetail.Icon1_2.TabIndex"
+                  "fullyQualifiedName": "EmployeeDetail.editIcon.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "EmployeeDetail.Icon1_2.TabIndex",
+                  "fullyQualifiedName": "EmployeeDetail.editIcon.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "EmployeeDetail",
-                "type": "EmployeeDetail.Icon1_2"
+                "type": "EmployeeDetail.editIcon"
               }
             }
           ],

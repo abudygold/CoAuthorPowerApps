@@ -98,7 +98,7 @@
             Width: =4
             ZIndex: =6
 
-    lblAppName As label:
+    lblAppNameLists As label:
         Height: =88
         PaddingLeft: =30
         Size: =27
@@ -181,7 +181,7 @@
         X: =464
         ZIndex: =9
 
-    MenuLeftNav_1 As MenuLeftNav:
+    MenuLeftNavLists As MenuLeftNav:
         HamburgerMenuColor: =RGBA(255, 255, 255, 1)
         Height: =Parent.Height
         MenuColor: =RGBA(56, 96, 178, 1)
@@ -200,9 +200,9 @@
                     MenuID: 2
                 }
             )
-        MenuWidth: =If(showMenu, MenuLeftNav_1.SetMenuWidth, iconHamburger.Width)
-        OnReset: =Set(showMenu, MenuLeftNav_1.ExpandMenu)
+        MenuWidth: =If(showMenu, MenuLeftNavLists.SetMenuWidth, iconHamburger.Width)
+        OnReset: =Set(showMenu, MenuLeftNavLists.ExpandMenu)
         SetMenuWidth: =250
-        Width: =MenuLeftNav_1.MenuWidth
+        Width: =MenuLeftNavLists.MenuWidth
         ZIndex: =10
 

@@ -5,7 +5,7 @@
         Width: =Parent.Width
         ZIndex: =2
 
-    LblAppName3 As label:
+    lblAppNameDetail As label:
         Height: =88
         PaddingLeft: =16
         PaddingRight: =16
@@ -15,7 +15,7 @@
         X: =67
         ZIndex: =3
 
-    Icon1 As icon.ChevronLeft:
+    backIcon As icon.ChevronLeft:
         Color: =Color.White
         Height: =33
         Icon: =Icon.ChevronLeft
@@ -389,7 +389,7 @@
                 Y: =DataCardKey9.Y + DataCardKey9.Height + 5
                 ZIndex: =2
 
-    Icon1_1 As icon.ChevronLeft:
+    deleteIcon As icon.ChevronLeft:
         Color: =Color.White
         Height: =33
         Icon: =Icon.Trash
@@ -401,7 +401,7 @@
         Y: =27
         ZIndex: =18
 
-    Icon1_2 As icon.ChevronLeft:
+    editIcon As icon.ChevronLeft:
         Color: =Color.White
         Height: =33
         Icon: =Icon.Edit
