@@ -809,15 +809,12 @@
                     false
                 );
                 If(
-                    editMode = true,
-                    Navigate(
-                        EmployeeDetail,
-                        ScreenTransition.Cover
-                    ),
+                    editMode = false,
                     Navigate(
                         EmployeeLists,
                         ScreenTransition.Cover
-                    )
+                    ),
+                    Back()
                 )
             Size: =24
             Text: ="Back"
