@@ -8,8 +8,7 @@
 
     LblAppNameForm As label:
         Height: =88
-        PaddingLeft: =16
-        PaddingRight: =16
+        PaddingLeft: =50
         Size: =27
         Text: =If(editMode=true, "Edit Employee Form", "Employee Form")
         Width: =Parent.Width
@@ -826,4 +825,27 @@
             X: =27
             Y: =17
             ZIndex: =2
+
+    MenuLeftNavForm As MenuLeftNav:
+        HamburgerMenuColor: =RGBA(255, 255, 255, 1)
+        Height: =Parent.Height
+        MenuColor: =RGBA(56, 96, 178, 1)
+        MenuItems: |-
+            =Table(
+                {
+                    MenuLabel: "Employee Registration",
+                    MenuIcon: Icon.DetailList,
+                    MenuScreenNavigation: EmployeeLists,
+                    MenuID: 1
+                },
+                    {
+                    MenuLabel: "Select Mentor",
+                    MenuIcon: Icon.DetailList,
+                    MenuScreenNavigation: EmployeeLists,
+                    MenuID: 2
+                }
+            )
+        SetMenuWidth: =250
+        Width: =MenuLeftNavForm.MenuWidth
+        ZIndex: =7
 
